@@ -67,7 +67,7 @@ Select the Application Data for Import
 
 Following the successful connection between Power BI and SharePoint, the Navigator window will appear, akin to when connecting to other data sources. Within this window, tables and entities from your SharePoint site are displayed. Choose the specific list you wish to import into Power BI Desktop. Much like importing from other data sources, you have the flexibility to load your data either automatically into a Power BI model or initiate the Power Query Editor to perform data transformations before loading.
 
-![Data Source](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/blob/main/Data%20sources.png)
+![Sharepoint Navigator](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/SharePoint%20Navigator.png)
 
 ## Conclusion:
 
