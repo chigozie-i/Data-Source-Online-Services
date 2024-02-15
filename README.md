@@ -39,17 +39,37 @@ For instance, let's consider Imaginary Inc., which relies on SharePoint for coll
 To understand how we can achieve this, we will look through how to use the Power BI Desktop Get Data feature to connect to data sources that are produced by external applications. To illustrate this process, we've provided an example that shows how to connect to a SharePoint site and import data from an online list.
 
 ## Connecting to Data in An Application
+
+#### Step I:  
 When initiating a connection to data within an application, the process mirrors that of connecting to other data sources. This involves starting with the "Get data" feature in Power BI Desktop, followed by selecting the appropriate option from the Online Services category. In this specific scenario, you would opt for "SharePoint Online List."
 
 ![Get Data I](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/Get%20Data%20I.png)
 
 ![Get Data II](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/Get%20Data%20II.png)
 
+#### Step II:  
+Once you've clicked on "Connect," you'll be prompted to provide your SharePoint URL. This URL corresponds to the one utilized for signing into your SharePoint site via a web browser. Simply copy the URL from your SharePoint site and paste it into the connection window in Power BI. There's no necessity to input the complete file path; solely the site URL suffices (Enter the root URL, excluding any subfolders).  
+  
+Once connected, you'll have the option to select the specific list you wish to load. 
+
+![Sharepoint I](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/SharePoint%20URL%20I.png)
+
+#### Step III:  
+Once you've input your URL, click on "OK." Power BI will then require authorization to establish the connection to SharePoint. Proceed by signing in with your Microsoft account, and subsequently click on
+"Connect."
+
+![Sharepoint II](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/SharePoint%20URL%20II.png)
+
+Select the Application Data for Import  
 
 
+#### Step IV:  
 
+Following the successful connection between Power BI and SharePoint, the Navigator window will appear, akin to when connecting to other data sources. Within this window, tables and entities from your SharePoint site are displayed. Choose the specific list you wish to import into Power BI Desktop. Much like importing from other data sources, you have the flexibility to load your data either automatically into a Power BI model or initiate the Power Query Editor to perform data transformations before loading.
 
+![Sharepoint Navigator](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/SharePoint%20Navigator.png)
 
+## Conclusion:
 
 ## Reference:  
 https://learn.microsoft.com  
