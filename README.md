@@ -31,6 +31,22 @@ Data Sources:
 This documentation project focuses on Online Services as Data Source.
 
 ## Connecting To Online Services:
+Organizations often utilize a variety of software applications like SharePoint, OneDrive, Dynamics 365, and Google Analytics to support their daily operations, each generating its own set of data. Power BI has the capability to amalgamate data from multiple applications, enabling the creation of more insightful reports.  
+  
+  
+For instance, let's consider Imaginary Inc., which relies on SharePoint for collaboration and sales data storage. At the onset of the new fiscal year, the sales managers need to set new targets for the sales team. The necessary form for this task is housed within SharePoint. Your task is to establish a connection to this data within Power BI Desktop. This will allow the integration of sales goals with other pertinent sales data, facilitating the evaluation of the sales pipeline's health.  
+  
+To understand how we can achieve this, we will look through how to use the Power BI Desktop Get Data feature to connect to data sources that are produced by external applications. To illustrate this process, we've provided an example that shows how to connect to a SharePoint site and import data from an online list.
+
+## Connecting to Data in An Application
+When initiating a connection to data within an application, the process mirrors that of connecting to other data sources. This involves starting with the "Get data" feature in Power BI Desktop, followed by selecting the appropriate option from the Online Services category. In this specific scenario, you would opt for "SharePoint Online List."
+
+![Get Data I](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/Get%20Data%20I.png)
+
+![Get Data II](https://github.com/chigozie-i/Data-Source-Online-Services/blob/main/Get%20Data%20II.png)
+
+
+
 
 
 
